@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local data and generated results
+data/
+output/
+
+# Model weights and large generated artifacts
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.avi
+*.mp4
+*.mov
+*.pdf
+
+# Build outputs
+build/
+dist/
+*.spec
+
+# Logs
+*.log
+
+# Local automation helpers
+.codex-*.ps1
